@@ -1,0 +1,30 @@
+{
+  "name": "kylepretorius/ipchecker-lib",
+  "description": "Package to filter through IP Range",
+  "license": "proprietary",
+  "keywords": [
+    "IP Checker"
+  ],
+  "require": {
+    "php": ">=7.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^6.5"
+  },
+  "authors": [
+    {
+      "name": "Kyle Pretorius",
+      "email": "kyle@hyvemobile.co.za"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "KylePretorius\\IPChecker\\": "IPChecker/src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "KylePretorius\\IPChecker\\Tests\\": "IPChecker/tests/"
+    }
+  }
+}
